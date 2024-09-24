@@ -1,6 +1,10 @@
 .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr)); */
+    
+    width: 100%;
+    height: auto;
+    columns: 300px;
     gap: 1rem;
     padding: 2rem;
   }
